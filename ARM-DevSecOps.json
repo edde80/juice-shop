@@ -94,10 +94,10 @@
       "name": "[parameters('appServicePlanName')]",
       "location": "[parameters('location')]",
       "sku": {
-        "name": "P1v4",
-        "tier": "PremiumV4",
-        "size": "P1v4",
-        "family": "Pv4",
+        "name": "P1v2",
+        "tier": "PremiumV2",
+        "size": "P1v2",
+        "family": "Pv2",
         "capacity": 1
       },
       "kind": "linux",
@@ -341,4 +341,5 @@
     }
   }
 }
+
 
